@@ -1,6 +1,6 @@
 import {Request, Response} from 'express';
-import serverService from '../services/serverService';
-import {successResponse, errorResponse} from '../utils/responseHandler';
+import serverService from '../services/server-service';
+import {successResponse, errorResponse} from '../utils/response-handler';
 
 class ServerController {
     async registerServer(req: Request, res: Response): Promise<void> {

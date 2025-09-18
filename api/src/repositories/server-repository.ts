@@ -1,4 +1,4 @@
-import {Server} from "../services/serverService";
+import {Server} from "../services/server-service";
 import pool from '../config/mysql';
 import { RowDataPacket } from 'mysql2/promise';
 

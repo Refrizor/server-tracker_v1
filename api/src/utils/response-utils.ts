@@ -1,5 +1,5 @@
 import { Response } from 'express';
-import {ResponseType} from "./responseType";
+import {ResponseType} from "./response-type";
 
 /**
  * The shape of the standardized response object.

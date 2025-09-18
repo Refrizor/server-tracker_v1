@@ -1,6 +1,6 @@
 import cron from 'node-cron';
 import { logger } from '../utils/logger';
-import { checkForDownedServers, updateGlobalPlayerCounts } from '../services/serverService';
+import { checkForDownedServers, updateGlobalPlayerCounts } from '../services/server-service';
 
 export function startSchedulers() {
     startServerStatusChecker();

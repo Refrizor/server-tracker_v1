@@ -1,5 +1,5 @@
 import express from 'express';
-import serverRoutes from './routes/serverRoutes';
+import serverRoutes from './routes/server-routes';
 
 export function createServer() {
     const app = express();

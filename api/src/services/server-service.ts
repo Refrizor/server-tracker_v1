@@ -1,6 +1,6 @@
 import redisClient from '../config/redis';
-import serverRepository from '../repositories/serverRepository';
-import redisPublisher from "../utils/redisPublisher";
+import serverRepository from '../repositories/server-repository';
+import redisPublisher from "../utils/redis-publisher";
 
 const THRESHOLD_MS = 6 * 1000; // 6 seconds
 

@@ -1,6 +1,6 @@
 import { Response } from 'express';
-import { sendResponse } from './responseUtils';
-import { ResponseType } from './responseType';
+import { sendResponse } from './response-utils';
+import { ResponseType } from './response-type';
 
 export function successResponse(res: Response, data: any, statusCode = 200, meta = {}) {
     if (Object.keys(meta).length === 0) {
