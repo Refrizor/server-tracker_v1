@@ -10,5 +10,9 @@ export function createServer() {
     // Routes
     app.use('/', serverRoutes);
 
+    app.get('/health', (_req, res) => {
+        res.json({ ok: true});
+    })
+
     return app;
 }
