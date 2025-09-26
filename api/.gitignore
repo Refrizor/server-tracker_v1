@@ -2,7 +2,7 @@
 .DS_Store
 *.log
 # Environment files
-.env
+.env*
 node_modules/
 dist/
 # JetBrains
