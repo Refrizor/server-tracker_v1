@@ -1,5 +1,5 @@
-import {Server} from "../services/server-service";
 import pool from '../config/mysql';
+import { Server } from "../services/server-service";
 import { RowDataPacket } from 'mysql2/promise';
 
 interface ServerRow extends RowDataPacket {
