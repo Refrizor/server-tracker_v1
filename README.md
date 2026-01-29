@@ -1,13 +1,15 @@
 # ServerTracker
 
+> **NOTICE**: This project is being re-written to be shippable, maintainable, and in line with current skills. Expect to see PostreSQL, Kysely and SQL migrations, a staff panel, real player sessions with history, a home for metrics, and more.  More details will be posted soon!
+
+---
+
 **ServerTracker** is a system for tracking Minecraft server uptime and player sessions. It includes a backend API (Node.js + TypeScript) and a Spigot plugin that registers servers, sends heartbeats, and reports player activity. Redis and MySQL are used to store both volatile and persistent data.
 
 This project is organized into two main modules:
 - `api/`: Handles server registration, heartbeats, and downtime tracking.
 - `plugin/`: A Spigot plugin that tracks server and player state and communicates with the API.
-
-> **Note**: This is a working proof-of-concept. It will be worked on over time.
-
+- 
 ---
 
 ## Features
