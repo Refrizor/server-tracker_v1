@@ -4,7 +4,7 @@
 
 ---
 
-**ServerTracker** is a system for tracking Mojang server uptime and player sessions. It includes a backend API (Node.js + TypeScript) and a Spigot plugin that registers servers, sends heartbeats, and reports player activity. Redis and MySQL are used to store both volatile and persistent data.
+**ServerTracker** is a system for tracking Mojang server uptime and player sessions. It includes a backend Express REST API (Node.js + TypeScript) and a Spigot plugin that registers servers, sends heartbeats, and reports player activity. Redis and MySQL are used to store both volatile and persistent data.
 
 This project is organized into two main modules:
 - `api/`: Handles server registration, heartbeats, and downtime tracking.
